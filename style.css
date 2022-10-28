@@ -1,0 +1,32 @@
+
+.hero-title{
+    text-align: center;
+    font-size: 4rem;
+    color: rgb(255,69,0)    ;
+}
+.hero-subtitle{
+    text-align: center;
+    color: rgb(255,69,0);
+}
+.text {
+    grid-column: 2 / 3;
+    font-size: 1.8rem;
+    letter-spacing: 0.6px;
+    column-width: 25rem;
+    text-align: justify;
+    color: white;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+.image-1, .image-3 {
+    grid-column: 1 / -1;
+}
+body{
+    background-color: rgb(20,30,40);
+}
+h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+    color: blueviolet;
+}
